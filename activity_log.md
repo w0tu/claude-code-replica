@@ -2,3 +2,4 @@
 - 2025-09-28T09:11:23: refactor: async prompt evaluation pipeline
 - 2025-10-02T09:11:23: chore: update neural network layer abstractions
 - 2025-10-06T09:11:23: feat: add temperature and top-p sampling heuristics
+- 2025-10-11T09:11:23: fix: token streaming buffer overflow in local runtime
