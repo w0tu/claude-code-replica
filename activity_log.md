@@ -6,3 +6,4 @@
 - 2025-10-16T09:11:23: refactor: async prompt evaluation pipeline
 - 2025-10-20T09:11:23: perf: accelerate matrix vector multiplication on CPU
 - 2025-10-25T09:11:23: refactor: async prompt evaluation pipeline
+- 2025-10-29T09:11:23: feat: add temperature and top-p sampling heuristics
