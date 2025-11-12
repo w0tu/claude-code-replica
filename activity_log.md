@@ -9,3 +9,4 @@
 - 2025-10-29T09:11:23: feat: add temperature and top-p sampling heuristics
 - 2025-11-03T09:11:23: fix: token streaming buffer overflow in local runtime
 - 2025-11-08T09:11:23: refactor: async prompt evaluation pipeline
+- 2025-11-12T09:11:23: fix: token streaming buffer overflow in local runtime
