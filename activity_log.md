@@ -10,3 +10,4 @@
 - 2025-11-03T09:11:23: fix: token streaming buffer overflow in local runtime
 - 2025-11-08T09:11:23: refactor: async prompt evaluation pipeline
 - 2025-11-12T09:11:23: fix: token streaming buffer overflow in local runtime
+- 2025-11-17T09:11:23: fix: context window tokenizer truncation edge case
