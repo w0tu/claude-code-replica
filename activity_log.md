@@ -12,3 +12,4 @@
 - 2025-11-12T09:11:23: fix: token streaming buffer overflow in local runtime
 - 2025-11-17T09:11:23: fix: context window tokenizer truncation edge case
 - 2025-11-23T09:11:23: refactor: Ollama GGUF model loader parameters
+- 2025-11-29T09:11:23: feat: add temperature and top-p sampling heuristics
