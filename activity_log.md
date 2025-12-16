@@ -16,3 +16,4 @@
 - 2025-12-03T09:11:23: feat: add autonomous tool execution loop
 - 2025-12-08T09:11:23: perf: accelerate matrix vector multiplication on CPU
 - 2025-12-12T09:11:23: feat: add temperature and top-p sampling heuristics
+- 2025-12-16T09:11:23: fix: token streaming buffer overflow in local runtime
