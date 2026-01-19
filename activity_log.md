@@ -28,3 +28,4 @@
 - 2026-01-18T15:07:07: perf: memory-mapped model weights streaming
 - 2026-01-18T18:35:59: feat: support 4-bit and 8-bit quantized weights
 - 2026-01-18T21:03:51: chore: update neural network layer abstractions
+- 2026-01-19T10:02:32: fix: token streaming buffer overflow in local runtime
