@@ -30,3 +30,4 @@
 - 2026-01-18T21:03:51: chore: update neural network layer abstractions
 - 2026-01-19T10:02:32: fix: token streaming buffer overflow in local runtime
 - 2026-01-19T12:30:24: refactor: async prompt evaluation pipeline
+- 2026-01-19T14:58:16: perf: memory-mapped model weights streaming
