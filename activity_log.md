@@ -35,3 +35,4 @@
 - 2026-01-19T19:54:00: chore: update neural network layer abstractions
 - 2026-01-19T21:22:52: chore: update neural network layer abstractions
 - 2026-01-20T11:02:32: feat: add temperature and top-p sampling heuristics
+- 2026-01-20T13:30:24: perf: accelerate matrix vector multiplication on CPU
