@@ -40,3 +40,4 @@
 - 2026-01-20T19:26:08: refactor: async prompt evaluation pipeline
 - 2026-01-21T09:11:23: perf: memory-mapped model weights streaming
 - 2026-01-21T11:39:15: refactor: Ollama GGUF model loader parameters
+- 2026-01-21T13:07:07: feat: support 4-bit and 8-bit quantized weights
