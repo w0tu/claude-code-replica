@@ -42,3 +42,4 @@
 - 2026-01-21T11:39:15: refactor: Ollama GGUF model loader parameters
 - 2026-01-21T13:07:07: feat: support 4-bit and 8-bit quantized weights
 - 2026-01-21T15:35:59: perf: accelerate matrix vector multiplication on CPU
+- 2026-01-21T17:03:51: refactor: async prompt evaluation pipeline
