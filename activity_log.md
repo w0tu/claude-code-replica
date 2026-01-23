@@ -44,3 +44,4 @@
 - 2026-01-21T15:35:59: perf: accelerate matrix vector multiplication on CPU
 - 2026-01-21T17:03:51: refactor: async prompt evaluation pipeline
 - 2026-01-21T19:31:43: fix: token streaming buffer overflow in local runtime
+- 2026-01-23T09:11:23: refactor: async prompt evaluation pipeline
