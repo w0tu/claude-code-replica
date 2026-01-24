@@ -46,3 +46,4 @@
 - 2026-01-21T19:31:43: fix: token streaming buffer overflow in local runtime
 - 2026-01-23T09:11:23: refactor: async prompt evaluation pipeline
 - 2026-01-24T11:02:32: feat: add temperature and top-p sampling heuristics
+- 2026-01-24T14:30:24: docs: benchmark inference latency and memory footprints
