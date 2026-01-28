@@ -53,3 +53,4 @@
 - 2026-01-25T14:16:58: perf: accelerate matrix vector multiplication on CPU
 - 2026-01-25T18:44:50: fix: token streaming buffer overflow in local runtime
 - 2026-01-26T09:11:23: feat: add temperature and top-p sampling heuristics
+- 2026-01-28T11:25:49: perf: memory-mapped model weights streaming
