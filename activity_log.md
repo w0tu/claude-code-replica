@@ -60,3 +60,4 @@
 - 2026-01-31T11:02:32: fix: token streaming buffer overflow in local runtime
 - 2026-01-31T14:30:24: fix: token streaming buffer overflow in local runtime
 - 2026-01-31T17:58:16: perf: accelerate matrix vector multiplication on CPU
+- 2026-01-31T20:26:08: feat: optimize quantized attention kernel
