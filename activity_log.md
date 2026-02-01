@@ -66,3 +66,4 @@
 - 2026-02-01T14:21:33: fix: context window tokenizer truncation edge case
 - 2026-02-01T16:49:25: refactor: Ollama GGUF model loader parameters
 - 2026-02-01T19:17:17: feat: add autonomous tool execution loop
+- 2026-02-01T21:45:09: refactor: Ollama GGUF model loader parameters
