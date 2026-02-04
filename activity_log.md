@@ -70,3 +70,4 @@
 - 2026-02-04T09:48:06: fix: token streaming buffer overflow in local runtime
 - 2026-02-04T12:16:58: refactor: async prompt evaluation pipeline
 - 2026-02-04T15:44:50: feat: add autonomous tool execution loop
+- 2026-02-04T18:12:42: perf: accelerate matrix vector multiplication on CPU
