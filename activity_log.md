@@ -68,3 +68,4 @@
 - 2026-02-01T19:17:17: feat: add autonomous tool execution loop
 - 2026-02-01T21:45:09: refactor: Ollama GGUF model loader parameters
 - 2026-02-04T09:48:06: fix: token streaming buffer overflow in local runtime
+- 2026-02-04T12:16:58: refactor: async prompt evaluation pipeline
