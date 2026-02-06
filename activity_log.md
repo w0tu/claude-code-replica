@@ -71,3 +71,4 @@
 - 2026-02-04T12:16:58: refactor: async prompt evaluation pipeline
 - 2026-02-04T15:44:50: feat: add autonomous tool execution loop
 - 2026-02-04T18:12:42: perf: accelerate matrix vector multiplication on CPU
+- 2026-02-06T09:11:23: refactor: Ollama GGUF model loader parameters
