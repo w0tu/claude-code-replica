@@ -73,3 +73,4 @@
 - 2026-02-04T18:12:42: perf: accelerate matrix vector multiplication on CPU
 - 2026-02-06T09:11:23: refactor: Ollama GGUF model loader parameters
 - 2026-02-07T12:02:32: feat: add temperature and top-p sampling heuristics
+- 2026-02-07T16:30:24: fix: token streaming buffer overflow in local runtime
