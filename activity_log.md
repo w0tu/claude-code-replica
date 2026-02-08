@@ -75,3 +75,4 @@
 - 2026-02-07T12:02:32: feat: add temperature and top-p sampling heuristics
 - 2026-02-07T16:30:24: fix: token streaming buffer overflow in local runtime
 - 2026-02-07T20:58:16: chore: update neural network layer abstractions
+- 2026-02-08T10:25:49: feat: optimize quantized attention kernel
