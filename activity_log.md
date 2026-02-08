@@ -76,3 +76,4 @@
 - 2026-02-07T16:30:24: fix: token streaming buffer overflow in local runtime
 - 2026-02-07T20:58:16: chore: update neural network layer abstractions
 - 2026-02-08T10:25:49: feat: optimize quantized attention kernel
+- 2026-02-08T13:53:41: feat: support 4-bit and 8-bit quantized weights
