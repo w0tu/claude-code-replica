@@ -77,3 +77,4 @@
 - 2026-02-07T20:58:16: chore: update neural network layer abstractions
 - 2026-02-08T10:25:49: feat: optimize quantized attention kernel
 - 2026-02-08T13:53:41: feat: support 4-bit and 8-bit quantized weights
+- 2026-02-08T16:21:33: feat: add autonomous tool execution loop
