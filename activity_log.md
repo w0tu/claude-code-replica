@@ -82,3 +82,4 @@
 - 2026-02-09T09:11:23: feat: add temperature and top-p sampling heuristics
 - 2026-02-11T10:25:49: docs: benchmark inference latency and memory footprints
 - 2026-02-11T12:53:41: fix: token streaming buffer overflow in local runtime
+- 2026-02-11T15:21:33: fix: context window tokenizer truncation edge case
