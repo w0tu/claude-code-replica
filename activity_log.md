@@ -84,3 +84,4 @@
 - 2026-02-11T12:53:41: fix: token streaming buffer overflow in local runtime
 - 2026-02-11T15:21:33: fix: context window tokenizer truncation edge case
 - 2026-02-11T17:49:25: perf: accelerate matrix vector multiplication on CPU
+- 2026-02-11T20:17:17: fix: context window tokenizer truncation edge case
