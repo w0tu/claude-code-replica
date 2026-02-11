@@ -83,3 +83,4 @@
 - 2026-02-11T10:25:49: docs: benchmark inference latency and memory footprints
 - 2026-02-11T12:53:41: fix: token streaming buffer overflow in local runtime
 - 2026-02-11T15:21:33: fix: context window tokenizer truncation edge case
+- 2026-02-11T17:49:25: perf: accelerate matrix vector multiplication on CPU
