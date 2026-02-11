@@ -80,3 +80,4 @@
 - 2026-02-08T16:21:33: feat: add autonomous tool execution loop
 - 2026-02-08T19:49:25: chore: update neural network layer abstractions
 - 2026-02-09T09:11:23: feat: add temperature and top-p sampling heuristics
+- 2026-02-11T10:25:49: docs: benchmark inference latency and memory footprints
