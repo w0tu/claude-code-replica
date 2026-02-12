@@ -85,3 +85,4 @@
 - 2026-02-11T15:21:33: fix: context window tokenizer truncation edge case
 - 2026-02-11T17:49:25: perf: accelerate matrix vector multiplication on CPU
 - 2026-02-11T20:17:17: fix: context window tokenizer truncation edge case
+- 2026-02-12T09:48:06: feat: support 4-bit and 8-bit quantized weights
