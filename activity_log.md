@@ -89,3 +89,4 @@
 - 2026-02-12T11:16:58: perf: accelerate matrix vector multiplication on CPU
 - 2026-02-12T14:44:50: perf: accelerate matrix vector multiplication on CPU
 - 2026-02-12T16:12:42: docs: benchmark inference latency and memory footprints
+- 2026-02-12T19:40:34: feat: optimize quantized attention kernel
