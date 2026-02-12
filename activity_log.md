@@ -88,3 +88,4 @@
 - 2026-02-12T09:48:06: feat: support 4-bit and 8-bit quantized weights
 - 2026-02-12T11:16:58: perf: accelerate matrix vector multiplication on CPU
 - 2026-02-12T14:44:50: perf: accelerate matrix vector multiplication on CPU
+- 2026-02-12T16:12:42: docs: benchmark inference latency and memory footprints
