@@ -96,3 +96,4 @@
 - 2026-02-13T19:58:16: feat: optimize quantized attention kernel
 - 2026-02-14T09:48:06: feat: add temperature and top-p sampling heuristics
 - 2026-02-14T13:16:58: fix: context window tokenizer truncation edge case
+- 2026-02-14T16:44:50: feat: add autonomous tool execution loop
