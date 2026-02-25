@@ -106,3 +106,4 @@
 - 2026-02-24T11:25:49: chore: update neural network layer abstractions
 - 2026-02-24T15:53:41: feat: add autonomous tool execution loop
 - 2026-02-24T19:21:33: perf: memory-mapped model weights streaming
+- 2026-02-25T09:48:06: fix: token streaming buffer overflow in local runtime
