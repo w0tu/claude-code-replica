@@ -110,3 +110,4 @@
 - 2026-02-25T12:16:58: refactor: Ollama GGUF model loader parameters
 - 2026-02-25T15:44:50: perf: memory-mapped model weights streaming
 - 2026-02-25T17:12:42: feat: add temperature and top-p sampling heuristics
+- 2026-02-25T20:40:34: perf: accelerate matrix vector multiplication on CPU
