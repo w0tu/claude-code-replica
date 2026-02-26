@@ -112,3 +112,4 @@
 - 2026-02-25T17:12:42: feat: add temperature and top-p sampling heuristics
 - 2026-02-25T20:40:34: perf: accelerate matrix vector multiplication on CPU
 - 2026-02-26T10:25:49: docs: benchmark inference latency and memory footprints
+- 2026-02-26T12:53:41: feat: optimize quantized attention kernel
