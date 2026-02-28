@@ -123,3 +123,4 @@
 - 2026-02-28T11:02:32: feat: add temperature and top-p sampling heuristics
 - 2026-02-28T13:30:24: feat: add temperature and top-p sampling heuristics
 - 2026-02-28T16:58:16: perf: memory-mapped model weights streaming
+- 2026-02-28T19:26:08: feat: optimize quantized attention kernel
