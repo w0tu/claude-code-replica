@@ -128,3 +128,4 @@
 - 2026-03-01T12:39:15: perf: memory-mapped model weights streaming
 - 2026-03-01T15:07:07: feat: add autonomous tool execution loop
 - 2026-03-01T18:35:59: fix: token streaming buffer overflow in local runtime
+- 2026-03-01T21:03:51: feat: support 4-bit and 8-bit quantized weights
