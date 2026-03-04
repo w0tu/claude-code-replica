@@ -131,3 +131,4 @@
 - 2026-03-01T21:03:51: feat: support 4-bit and 8-bit quantized weights
 - 2026-03-04T10:25:49: perf: memory-mapped model weights streaming
 - 2026-03-04T13:53:41: feat: add autonomous tool execution loop
+- 2026-03-04T16:21:33: perf: accelerate matrix vector multiplication on CPU
