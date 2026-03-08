@@ -137,3 +137,4 @@
 - 2026-03-08T10:25:49: feat: add autonomous tool execution loop
 - 2026-03-08T13:53:41: feat: add temperature and top-p sampling heuristics
 - 2026-03-08T15:21:33: feat: support 4-bit and 8-bit quantized weights
+- 2026-03-08T18:49:25: perf: accelerate matrix vector multiplication on CPU
