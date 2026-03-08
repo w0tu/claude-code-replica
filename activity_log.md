@@ -135,3 +135,4 @@
 - 2026-03-04T19:49:25: fix: context window tokenizer truncation edge case
 - 2026-03-06T09:11:23: feat: add temperature and top-p sampling heuristics
 - 2026-03-08T10:25:49: feat: add autonomous tool execution loop
+- 2026-03-08T13:53:41: feat: add temperature and top-p sampling heuristics
