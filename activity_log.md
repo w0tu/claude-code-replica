@@ -142,3 +142,4 @@
 - 2026-03-11T11:25:49: fix: token streaming buffer overflow in local runtime
 - 2026-03-11T16:53:41: perf: memory-mapped model weights streaming
 - 2026-03-11T20:21:33: docs: benchmark inference latency and memory footprints
+- 2026-03-16T09:11:23: fix: token streaming buffer overflow in local runtime
