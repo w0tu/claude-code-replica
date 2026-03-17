@@ -147,3 +147,4 @@
 - 2026-03-16T14:07:07: fix: token streaming buffer overflow in local runtime
 - 2026-03-16T17:35:59: feat: add autonomous tool execution loop
 - 2026-03-16T20:03:51: refactor: async prompt evaluation pipeline
+- 2026-03-17T11:25:49: fix: token streaming buffer overflow in local runtime
