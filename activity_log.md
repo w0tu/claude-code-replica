@@ -149,3 +149,4 @@
 - 2026-03-16T20:03:51: refactor: async prompt evaluation pipeline
 - 2026-03-17T11:25:49: fix: token streaming buffer overflow in local runtime
 - 2026-03-17T16:53:41: feat: support 4-bit and 8-bit quantized weights
+- 2026-03-17T20:21:33: feat: add temperature and top-p sampling heuristics
