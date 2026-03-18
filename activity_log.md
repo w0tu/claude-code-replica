@@ -152,3 +152,4 @@
 - 2026-03-17T20:21:33: feat: add temperature and top-p sampling heuristics
 - 2026-03-18T12:02:32: chore: update neural network layer abstractions
 - 2026-03-18T16:30:24: chore: update neural network layer abstractions
+- 2026-03-18T20:58:16: fix: token streaming buffer overflow in local runtime
