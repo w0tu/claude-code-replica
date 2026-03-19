@@ -153,3 +153,4 @@
 - 2026-03-18T12:02:32: chore: update neural network layer abstractions
 - 2026-03-18T16:30:24: chore: update neural network layer abstractions
 - 2026-03-18T20:58:16: fix: token streaming buffer overflow in local runtime
+- 2026-03-19T10:25:49: feat: optimize quantized attention kernel
