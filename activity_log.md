@@ -161,3 +161,4 @@
 - 2026-03-20T17:30:24: fix: token streaming buffer overflow in local runtime
 - 2026-03-21T09:11:23: perf: accelerate matrix vector multiplication on CPU
 - 2026-03-21T11:39:15: refactor: async prompt evaluation pipeline
+- 2026-03-21T13:07:07: fix: context window tokenizer truncation edge case
