@@ -165,3 +165,4 @@
 - 2026-03-21T16:35:59: fix: token streaming buffer overflow in local runtime
 - 2026-03-21T18:03:51: chore: update neural network layer abstractions
 - 2026-03-21T20:31:43: feat: add temperature and top-p sampling heuristics
+- 2026-03-26T09:11:23: fix: context window tokenizer truncation edge case
