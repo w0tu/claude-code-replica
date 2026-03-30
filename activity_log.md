@@ -170,3 +170,4 @@
 - 2026-03-30T11:39:15: chore: update neural network layer abstractions
 - 2026-03-30T13:07:07: refactor: async prompt evaluation pipeline
 - 2026-03-30T16:35:59: docs: benchmark inference latency and memory footprints
+- 2026-03-30T18:03:51: refactor: Ollama GGUF model loader parameters
