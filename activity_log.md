@@ -178,3 +178,4 @@
 - 2026-03-31T17:26:08: feat: optimize quantized attention kernel
 - 2026-03-31T19:54:00: chore: update neural network layer abstractions
 - 2026-04-01T09:11:23: feat: optimize quantized attention kernel
+- 2026-04-01T13:39:15: fix: context window tokenizer truncation edge case
