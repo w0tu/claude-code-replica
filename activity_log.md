@@ -190,3 +190,4 @@
 - 2026-04-03T12:53:41: feat: support 4-bit and 8-bit quantized weights
 - 2026-04-03T14:21:33: feat: add temperature and top-p sampling heuristics
 - 2026-04-03T16:49:25: chore: update neural network layer abstractions
+- 2026-04-03T19:17:17: perf: accelerate matrix vector multiplication on CPU
