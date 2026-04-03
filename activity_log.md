@@ -188,3 +188,4 @@
 - 2026-04-02T20:54:00: fix: token streaming buffer overflow in local runtime
 - 2026-04-03T10:25:49: docs: benchmark inference latency and memory footprints
 - 2026-04-03T12:53:41: feat: support 4-bit and 8-bit quantized weights
+- 2026-04-03T14:21:33: feat: add temperature and top-p sampling heuristics
