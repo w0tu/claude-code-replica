@@ -187,3 +187,4 @@
 - 2026-04-02T18:26:08: chore: update neural network layer abstractions
 - 2026-04-02T20:54:00: fix: token streaming buffer overflow in local runtime
 - 2026-04-03T10:25:49: docs: benchmark inference latency and memory footprints
+- 2026-04-03T12:53:41: feat: support 4-bit and 8-bit quantized weights
