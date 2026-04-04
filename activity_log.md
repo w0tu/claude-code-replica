@@ -193,3 +193,4 @@
 - 2026-04-03T19:17:17: perf: accelerate matrix vector multiplication on CPU
 - 2026-04-03T21:45:09: refactor: Ollama GGUF model loader parameters
 - 2026-04-04T11:02:32: refactor: async prompt evaluation pipeline
+- 2026-04-04T15:30:24: refactor: async prompt evaluation pipeline
