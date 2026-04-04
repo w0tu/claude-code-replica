@@ -194,3 +194,4 @@
 - 2026-04-03T21:45:09: refactor: Ollama GGUF model loader parameters
 - 2026-04-04T11:02:32: refactor: async prompt evaluation pipeline
 - 2026-04-04T15:30:24: refactor: async prompt evaluation pipeline
+- 2026-04-04T18:58:16: fix: token streaming buffer overflow in local runtime
