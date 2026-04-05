@@ -198,3 +198,4 @@
 - 2026-04-05T09:11:23: perf: memory-mapped model weights streaming
 - 2026-04-05T11:39:15: docs: benchmark inference latency and memory footprints
 - 2026-04-05T14:07:07: fix: context window tokenizer truncation edge case
+- 2026-04-05T17:35:59: perf: accelerate matrix vector multiplication on CPU
