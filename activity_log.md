@@ -203,3 +203,4 @@
 - 2026-04-08T09:11:23: perf: memory-mapped model weights streaming
 - 2026-04-08T11:39:15: chore: update neural network layer abstractions
 - 2026-04-08T13:07:07: chore: update neural network layer abstractions
+- 2026-04-08T16:35:59: refactor: async prompt evaluation pipeline
