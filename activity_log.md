@@ -206,3 +206,4 @@
 - 2026-04-08T16:35:59: refactor: async prompt evaluation pipeline
 - 2026-04-08T18:03:51: chore: update neural network layer abstractions
 - 2026-04-08T20:31:43: feat: support 4-bit and 8-bit quantized weights
+- 2026-04-12T09:11:23: refactor: async prompt evaluation pipeline
