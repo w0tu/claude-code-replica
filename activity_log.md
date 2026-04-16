@@ -213,3 +213,4 @@
 - 2026-04-15T10:25:49: refactor: Ollama GGUF model loader parameters
 - 2026-04-15T14:53:41: perf: accelerate matrix vector multiplication on CPU
 - 2026-04-15T18:21:33: perf: accelerate matrix vector multiplication on CPU
+- 2026-04-16T09:11:23: docs: benchmark inference latency and memory footprints
