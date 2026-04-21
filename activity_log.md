@@ -217,3 +217,4 @@
 - 2026-04-20T10:48:06: chore: update neural network layer abstractions
 - 2026-04-20T14:16:58: refactor: Ollama GGUF model loader parameters
 - 2026-04-20T19:44:50: fix: context window tokenizer truncation edge case
+- 2026-04-21T11:25:49: feat: add temperature and top-p sampling heuristics
