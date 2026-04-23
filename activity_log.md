@@ -225,3 +225,4 @@
 - 2026-04-22T15:58:16: feat: add autonomous tool execution loop
 - 2026-04-22T18:26:08: refactor: async prompt evaluation pipeline
 - 2026-04-22T20:54:00: feat: optimize quantized attention kernel
+- 2026-04-23T10:25:49: fix: token streaming buffer overflow in local runtime
