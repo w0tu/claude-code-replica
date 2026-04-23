@@ -227,3 +227,4 @@
 - 2026-04-22T20:54:00: feat: optimize quantized attention kernel
 - 2026-04-23T10:25:49: fix: token streaming buffer overflow in local runtime
 - 2026-04-23T12:53:41: perf: memory-mapped model weights streaming
+- 2026-04-23T14:21:33: docs: benchmark inference latency and memory footprints
