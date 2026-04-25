@@ -234,3 +234,4 @@
 - 2026-04-24T11:02:32: perf: accelerate matrix vector multiplication on CPU
 - 2026-04-24T15:30:24: perf: memory-mapped model weights streaming
 - 2026-04-24T19:58:16: feat: optimize quantized attention kernel
+- 2026-04-25T09:48:06: fix: context window tokenizer truncation edge case
