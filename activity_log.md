@@ -237,3 +237,4 @@
 - 2026-04-25T09:48:06: fix: context window tokenizer truncation edge case
 - 2026-04-25T12:16:58: perf: memory-mapped model weights streaming
 - 2026-04-25T15:44:50: refactor: Ollama GGUF model loader parameters
+- 2026-04-25T17:12:42: docs: benchmark inference latency and memory footprints
