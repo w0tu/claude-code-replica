@@ -241,3 +241,4 @@
 - 2026-04-25T20:40:34: fix: context window tokenizer truncation edge case
 - 2026-04-29T09:11:23: feat: add temperature and top-p sampling heuristics
 - 2026-05-03T09:11:23: refactor: Ollama GGUF model loader parameters
+- 2026-05-03T13:39:15: feat: optimize quantized attention kernel
