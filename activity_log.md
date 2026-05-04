@@ -247,3 +247,4 @@
 - 2026-05-04T12:16:58: perf: memory-mapped model weights streaming
 - 2026-05-04T15:44:50: docs: benchmark inference latency and memory footprints
 - 2026-05-04T18:12:42: refactor: Ollama GGUF model loader parameters
+- 2026-05-04T21:40:34: feat: support 4-bit and 8-bit quantized weights
