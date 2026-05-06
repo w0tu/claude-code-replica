@@ -257,3 +257,4 @@
 - 2026-05-06T11:16:58: feat: optimize quantized attention kernel
 - 2026-05-06T13:44:50: feat: support 4-bit and 8-bit quantized weights
 - 2026-05-06T16:12:42: refactor: async prompt evaluation pipeline
+- 2026-05-06T18:40:34: fix: token streaming buffer overflow in local runtime
