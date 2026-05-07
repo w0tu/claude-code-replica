@@ -259,3 +259,4 @@
 - 2026-05-06T16:12:42: refactor: async prompt evaluation pipeline
 - 2026-05-06T18:40:34: fix: token streaming buffer overflow in local runtime
 - 2026-05-06T20:08:26: refactor: async prompt evaluation pipeline
+- 2026-05-07T10:48:06: feat: optimize quantized attention kernel
