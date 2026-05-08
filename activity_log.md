@@ -262,3 +262,4 @@
 - 2026-05-07T10:48:06: feat: optimize quantized attention kernel
 - 2026-05-07T14:16:58: feat: add autonomous tool execution loop
 - 2026-05-07T19:44:50: docs: benchmark inference latency and memory footprints
+- 2026-05-08T10:25:49: feat: optimize quantized attention kernel
