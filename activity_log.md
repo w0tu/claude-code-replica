@@ -270,3 +270,4 @@
 - 2026-05-09T11:02:32: perf: accelerate matrix vector multiplication on CPU
 - 2026-05-09T13:30:24: feat: optimize quantized attention kernel
 - 2026-05-09T16:58:16: chore: update neural network layer abstractions
+- 2026-05-09T19:26:08: fix: context window tokenizer truncation edge case
