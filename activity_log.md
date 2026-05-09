@@ -269,3 +269,4 @@
 - 2026-05-08T21:17:17: feat: add temperature and top-p sampling heuristics
 - 2026-05-09T11:02:32: perf: accelerate matrix vector multiplication on CPU
 - 2026-05-09T13:30:24: feat: optimize quantized attention kernel
+- 2026-05-09T16:58:16: chore: update neural network layer abstractions
