@@ -280,3 +280,4 @@
 - 2026-05-16T09:48:06: perf: memory-mapped model weights streaming
 - 2026-05-16T12:16:58: feat: optimize quantized attention kernel
 - 2026-05-16T15:44:50: feat: support 4-bit and 8-bit quantized weights
+- 2026-05-16T18:12:42: feat: add autonomous tool execution loop
