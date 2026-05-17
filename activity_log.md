@@ -283,3 +283,4 @@
 - 2026-05-16T18:12:42: feat: add autonomous tool execution loop
 - 2026-05-17T09:11:23: refactor: async prompt evaluation pipeline
 - 2026-05-17T11:39:15: feat: add autonomous tool execution loop
+- 2026-05-17T13:07:07: refactor: Ollama GGUF model loader parameters
