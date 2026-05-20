@@ -287,3 +287,4 @@
 - 2026-05-17T16:35:59: feat: support 4-bit and 8-bit quantized weights
 - 2026-05-17T18:03:51: chore: update neural network layer abstractions
 - 2026-05-17T20:31:43: perf: memory-mapped model weights streaming
+- 2026-05-20T09:11:23: perf: accelerate matrix vector multiplication on CPU
