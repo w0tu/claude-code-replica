@@ -289,3 +289,4 @@
 - 2026-05-17T20:31:43: perf: memory-mapped model weights streaming
 - 2026-05-20T09:11:23: perf: accelerate matrix vector multiplication on CPU
 - 2026-05-23T10:25:49: feat: support 4-bit and 8-bit quantized weights
+- 2026-05-23T13:53:41: docs: benchmark inference latency and memory footprints
