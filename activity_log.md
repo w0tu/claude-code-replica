@@ -293,3 +293,4 @@
 - 2026-05-23T16:21:33: refactor: Ollama GGUF model loader parameters
 - 2026-05-23T19:49:25: refactor: async prompt evaluation pipeline
 - 2026-05-25T09:11:23: refactor: Ollama GGUF model loader parameters
+- 2026-05-25T12:39:15: refactor: async prompt evaluation pipeline
