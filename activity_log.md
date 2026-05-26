@@ -297,3 +297,4 @@
 - 2026-05-25T15:07:07: chore: update neural network layer abstractions
 - 2026-05-25T18:35:59: refactor: Ollama GGUF model loader parameters
 - 2026-05-25T21:03:51: chore: update neural network layer abstractions
+- 2026-05-26T10:02:32: feat: support 4-bit and 8-bit quantized weights
