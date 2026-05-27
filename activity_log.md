@@ -304,3 +304,4 @@
 - 2026-05-26T19:54:00: refactor: Ollama GGUF model loader parameters
 - 2026-05-26T21:22:52: feat: support 4-bit and 8-bit quantized weights
 - 2026-05-27T11:02:32: feat: add temperature and top-p sampling heuristics
+- 2026-05-27T14:30:24: refactor: Ollama GGUF model loader parameters
