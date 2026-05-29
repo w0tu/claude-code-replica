@@ -314,3 +314,4 @@
 - 2026-05-29T10:02:32: perf: memory-mapped model weights streaming
 - 2026-05-29T13:30:24: feat: optimize quantized attention kernel
 - 2026-05-29T15:58:16: chore: update neural network layer abstractions
+- 2026-05-29T17:26:08: fix: context window tokenizer truncation edge case
