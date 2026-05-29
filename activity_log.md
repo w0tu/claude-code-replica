@@ -315,3 +315,4 @@
 - 2026-05-29T13:30:24: feat: optimize quantized attention kernel
 - 2026-05-29T15:58:16: chore: update neural network layer abstractions
 - 2026-05-29T17:26:08: fix: context window tokenizer truncation edge case
+- 2026-05-29T20:54:00: feat: add temperature and top-p sampling heuristics
