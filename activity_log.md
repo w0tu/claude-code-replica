@@ -311,3 +311,4 @@
 - 2026-05-28T14:53:41: fix: token streaming buffer overflow in local runtime
 - 2026-05-28T17:21:33: fix: context window tokenizer truncation edge case
 - 2026-05-28T21:49:25: perf: memory-mapped model weights streaming
+- 2026-05-29T10:02:32: perf: memory-mapped model weights streaming
