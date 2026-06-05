@@ -317,3 +317,4 @@
 - 2026-05-29T17:26:08: fix: context window tokenizer truncation edge case
 - 2026-05-29T20:54:00: feat: add temperature and top-p sampling heuristics
 - 2026-05-31T09:11:23: docs: benchmark inference latency and memory footprints
+- 2026-06-05T09:11:23: docs: benchmark inference latency and memory footprints
