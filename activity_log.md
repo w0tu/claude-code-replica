@@ -319,3 +319,4 @@
 - 2026-05-31T09:11:23: docs: benchmark inference latency and memory footprints
 - 2026-06-05T09:11:23: docs: benchmark inference latency and memory footprints
 - 2026-06-11T09:11:23: refactor: async prompt evaluation pipeline
+- 2026-06-15T09:11:23: feat: optimize quantized attention kernel
