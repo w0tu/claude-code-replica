@@ -326,3 +326,4 @@
 - 2026-07-03T09:11:23: feat: add temperature and top-p sampling heuristics
 - 2026-07-09T09:11:23: perf: memory-mapped model weights streaming
 - 2026-07-14T09:11:23: fix: context window tokenizer truncation edge case
+- 2026-07-18T09:11:23: fix: context window tokenizer truncation edge case
