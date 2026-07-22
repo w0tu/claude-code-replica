@@ -327,3 +327,4 @@
 - 2026-07-09T09:11:23: perf: memory-mapped model weights streaming
 - 2026-07-14T09:11:23: fix: context window tokenizer truncation edge case
 - 2026-07-18T09:11:23: fix: context window tokenizer truncation edge case
+- 2026-07-22T09:11:23: feat: add autonomous tool execution loop
