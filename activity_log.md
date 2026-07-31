@@ -329,3 +329,4 @@
 - 2026-07-18T09:11:23: fix: context window tokenizer truncation edge case
 - 2026-07-22T09:11:23: feat: add autonomous tool execution loop
 - 2026-07-27T09:11:23: fix: context window tokenizer truncation edge case
+- 2026-07-31T09:11:23: refactor: async prompt evaluation pipeline
