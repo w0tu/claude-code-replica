@@ -330,3 +330,4 @@
 - 2026-07-22T09:11:23: feat: add autonomous tool execution loop
 - 2026-07-27T09:11:23: fix: context window tokenizer truncation edge case
 - 2026-07-31T09:11:23: refactor: async prompt evaluation pipeline
+- 2026-08-05T09:11:23: feat: add temperature and top-p sampling heuristics
