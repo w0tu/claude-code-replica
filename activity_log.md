@@ -333,3 +333,4 @@
 - 2026-08-05T09:11:23: feat: add temperature and top-p sampling heuristics
 - 2026-08-10T09:11:23: chore: update neural network layer abstractions
 - 2026-08-14T09:11:23: fix: context window tokenizer truncation edge case
+- 2026-08-19T09:11:23: fix: token streaming buffer overflow in local runtime
