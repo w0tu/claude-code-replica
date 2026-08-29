@@ -335,3 +335,4 @@
 - 2026-08-14T09:11:23: fix: context window tokenizer truncation edge case
 - 2026-08-19T09:11:23: fix: token streaming buffer overflow in local runtime
 - 2026-08-23T09:11:23: fix: context window tokenizer truncation edge case
+- 2026-08-29T09:11:23: feat: support 4-bit and 8-bit quantized weights
