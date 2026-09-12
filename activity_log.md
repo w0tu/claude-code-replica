@@ -338,3 +338,4 @@
 - 2026-08-29T09:11:23: feat: support 4-bit and 8-bit quantized weights
 - 2026-09-03T09:11:23: perf: accelerate matrix vector multiplication on CPU
 - 2026-09-07T09:11:23: feat: support 4-bit and 8-bit quantized weights
+- 2026-09-12T09:11:23: refactor: async prompt evaluation pipeline
