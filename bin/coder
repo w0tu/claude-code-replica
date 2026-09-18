@@ -1,0 +1,14 @@
+#!/home/feds/venv/bin/python3
+import sys
+import os
+
+# Resolve symlinks to find the actual repo root directory
+real_script = os.path.realpath(__file__)
+repo_root = os.path.dirname(os.path.dirname(real_script))
+if repo_root not in sys.path:
+    sys.path.insert(0, "/home/feds/Projects/claude-code-replica")
+
+from claude_replica.cli import main
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Claude Code · Usage Shower</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/usage.css" />
+</head>
+<body class="theme-dark">
+  <!-- Top Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="brand">
+        <span class="brand-icon">◈</span>
+        <div class="brand-titles">
+          <span class="brand-name">CLAUDE CODE</span>
+          <span class="brand-tag">USAGE SHOWER</span>
+        </div>
+      </div>
+      <div class="nav-status">
+        <div class="status-badge live-pulse">
+          <span class="pulse-dot"></span>
+          <span id="liveStatusText">LIVE TELEMETRY</span>
+        </div>
+        <div class="session-timer">
+          <span class="timer-label">SESSION:</span>
+          <span id="sessionTimer" class="timer-value">00:00:00</span>
+        </div>
+        <a href="https://claudecode.base44.app" target="_blank" rel="noopener noreferrer" class="device-pill" id="base44Pill" title="Base44 UsageGuard Cloud Dashboard">
+          <span class="pulse-dot" id="base44Dot" style="background-color: var(--color-green); width: 7px; height: 7px; border-radius: 50%;"></span>
+          <span id="base44PillLabel">Base44: Active</span>
+        </a>
+        <a href="#groqGlobalCard" class="device-pill" id="groqPill" title="Groq API Live Rate Limits">
+          <span class="pulse-dot" id="groqDot" style="background-color: var(--color-green); width: 7px; height: 7px; border-radius: 50%;"></span>
+          <span id="groqPillLabel">Groq: 100%</span>
+        </a>
+        <a href="#devicesSection" class="device-pill" id="devicePill">
+          <span class="device-dot"></span>
+          <span id="deviceCountLabel">1 Device Connected</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Hero Banner with Model and Workspace -->
+    <section class="session-banner">
+      <div class="banner-left">
+        <div class="banner-badge">⚡ Real-Time Assistant Monitor</div>
+        <h1 class="session-heading" id="bannerModel">Claude 3.7 Sonnet</h1>
+        <p class="session-sub" id="bannerWorkspace">Workspace: Loading...</p>
+      </div>
+
+      <!-- Center: Animated Clawd Mascot (Jamming / Loading / Idle > 10s) -->
+      <div class="banner-mascot" id="mascotContainer">
+        <div class="mascot-img-wrap">
+          <img id="clawdMascotImg" src="/claude-jam.gif" alt="Clawd Mascot" class="mascot-gif" />
+          <div class="sound-wave-bars" id="mascotMusicBars">
+            <span class="bar bar-1"></span>
+            <span class="bar bar-2"></span>
+            <span class="bar bar-3"></span>
+            <span class="bar bar-4"></span>
+          </div>
+        </div>
+        <div class="mascot-status-info">
+          <div class="mascot-badge-row">
+            <span class="mascot-badge badge-jamming" id="mascotBadge">♫ JAMMING</span>
+          </div>
+          <div class="mascot-caption" id="mascotCaption">Clawd is grooving to the session</div>
+        </div>
+      </div>
+
+      <div class="banner-right">
+        <div class="started-at">
+          <span class="meta-label">Session Started</span>
+          <span class="meta-val" id="startedAtTime">--:--:--</span>
+        </div>
+        <div class="speed-stat">
+          <span class="meta-label">Average Speed</span>
+          <span class="meta-val" id="avgSpeed">-- tok/s</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Metrics Cards -->
+    <section class="metrics-grid">
+      <!-- Card 1: Total Credits -->
+      <div class="card metric-card highlight-card">
+        <div class="card-header">
+          <span class="card-title">TOTAL CREDITS USED</span>
+          <span class="card-badge">Lifetime</span>
+        </div>
+        <div class="metric-number" id="totalCredits">0.000</div>
+        <div class="metric-sub">
+          <span id="sessionCredits">0.000</span> credits in this session
+        </div>
+        <div class="card-formula">1 credit = 1,000 tokens processed</div>
+      </div>
+
+      <!-- Card 2: Session Tokens -->
+      <div class="card metric-card">
+        <div class="card-header">
+          <span class="card-title">SESSION TOKENS</span>
+          <span class="card-badge">Current</span>
+        </div>
+        <div class="metric-number" id="sessionTokens">0</div>
+        <div class="token-split">
+          <div class="split-col">
+            <span class="split-label">Input:</span>
+            <span class="split-val" id="inputTokens">0</span>
+          </div>
+          <div class="split-col">
+            <span class="split-label">Output:</span>
+            <span class="split-val" id="outputTokens">0</span>
+          </div>
+        </div>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" id="tokenRatioBar" style="width: 50%;"></div>
+        </div>
+      </div>
+
+      <!-- Card 3: Hourly Quota -->
+      <div class="card metric-card">
+        <div class="card-header">
+          <span class="card-title">HOURLY RATE LIMIT</span>
+          <span class="card-badge" id="effortTierBadge">NORMAL</span>
+        </div>
+        <div class="metric-number" id="quotaRemaining">40 <span class="unit">/ 40</span></div>
+        <div class="metric-sub">
+          <span id="quotaPercent">100%</span> remaining in current hour
+        </div>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill green-fill" id="quotaBar" style="width: 100%;"></div>
+        </div>
+      </div>
+
+      <!-- Card 4: Turns & Prompts -->
+      <div class="card metric-card">
+        <div class="card-header">
+          <span class="card-title">PROMPT TURNS</span>
+          <span class="card-badge">Activity</span>
+        </div>
+        <div class="metric-number" id="turnsCount">0</div>
+        <div class="metric-sub">
+          Total lifetime turns: <span id="lifetimeTurns">0</span>
+        </div>
+        <div class="card-formula" id="activeProvider">Provider: GROQ (Fast Fallback)</div>
+      </div>
+
+      <!-- Card 5: Base44 UsageGuard Sync -->
+      <div class="card metric-card" id="base44Card">
+        <div class="card-header">
+          <span class="card-title">BASE44 USAGEGUARD</span>
+          <span class="card-badge" id="base44StatusBadge" style="background: rgba(46, 204, 113, 0.15); color: #2ecc71;">ACTIVE</span>
+        </div>
+        <div class="metric-number" id="base44UsageText">0 <span class="unit">/ 1,000</span></div>
+        <div class="metric-sub">
+          Device: <strong id="base44Device">osint</strong> · Sync: <span id="base44SyncTime">--:--:--</span>
+        </div>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill green-fill" id="base44Bar" style="width: 0%;"></div>
+        </div>
+        <div class="card-formula">
+          <a href="https://claudecode.base44.app" target="_blank" rel="noopener noreferrer" style="color: var(--accent-orange); text-decoration: none; display: inline-flex; align-items: center; gap: 4px; font-weight: 600;">
+            <span>🌐 Open Base44 Dashboard</span> ↗
+          </a>
+        </div>
+      </div>
+
+      <!-- Card 6: Global Groq Live Quota -->
+      <div class="card metric-card" id="groqGlobalCard">
+        <div class="card-header">
+          <span class="card-title">GLOBAL GROQ USAGE</span>
+          <span class="card-badge" id="groqHealthBadge" style="background: rgba(46, 204, 113, 0.15); color: #2ecc71;">HEALTHY</span>
+        </div>
+        <div class="metric-number" id="groqTokensText">0 <span class="unit">tok</span></div>
+        <div class="metric-sub">
+          TPM: <strong id="groqTpmText">8,000 / 8,000</strong> · RPM: <strong id="groqRpmText">1,000 / 1,000</strong>
+        </div>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill green-fill" id="groqTpmBar" style="width: 100%;"></div>
+        </div>
+        <div class="card-formula" id="groqSubMeta">
+          Region: <span id="groqRegion">fra</span> · Reset: <span id="groqResetTime">--</span> · Speed: <span id="groqSpeed">-- tok/s</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Turn-by-Turn Activity Timeline -->
+    <section class="section-container">
+      <div class="section-header">
+        <div class="section-title-group">
+          <h2>Turn-by-Turn Activity Timeline</h2>
+          <p class="section-desc">Streaming from when you first opened Claude to the latest prompt</p>
+        </div>
+        <div class="section-tools">
+          <span class="badge-count" id="turnsBadge">0 Turns</span>
+        </div>
+      </div>
+
+      <div class="timeline-wrapper" id="timelineContainer">
+        <div class="empty-state" id="timelineEmpty">
+          <div class="empty-icon">⏳</div>
+          <div class="empty-title">Waiting for your first prompt...</div>
+          <div class="empty-desc">Ask Claude Code a question or request code modifications in your terminal.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Connected Devices Panel -->
+    <section class="section-container" id="devicesSection">
+      <div class="section-header">
+        <div class="section-title-group">
+          <h2>Connected Devices & Remote Monitor</h2>
+          <p class="section-desc">Real-time hardware & browser presence detection</p>
+        </div>
+        <div class="section-tools">
+          <span class="badge-count green-badge" id="devicesBadge">1 Connected</span>
+        </div>
+      </div>
+
+      <!-- Explanation Card: How it knows when a device is connected -->
+      <div class="network-banner">
+        <div class="network-info">
+          <div class="network-title">📱 Connect from Phone, Tablet, or Another Machine</div>
+          <p class="network-desc">
+            Open this URL on any device connected to the same Wi-Fi network:
+          </p>
+          <div class="url-copy-box">
+            <code id="networkUrl">http://...</code>
+            <button class="btn-copy" id="btnCopyUrl" title="Copy to clipboard">Copy</button>
+          </div>
+        </div>
+        <div class="how-it-works">
+          <div class="how-title">💡 How does Claude Code detect connected devices?</div>
+          <ul>
+            <li><strong>Network Handshake:</strong> When a phone or browser opens the URL, the HTTP/WebSocket connection registers with the local server.</li>
+            <li><strong>User-Agent Inspection:</strong> Automatically identifies the exact hardware (iPhone, Android, Mac, Linux, PC) and browser.</li>
+            <li><strong>Heartbeat Presence:</strong> Devices transmit a pulse every 3s. If a tab closes, the device immediately transitions to offline.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Devices Grid -->
+      <div class="devices-grid" id="devicesList">
+        <!-- Dynamically rendered via usage.js -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>◈ Claude Code / Coder Replica · Live Usage Shower & Device Monitor</p>
+      <p class="footer-dim">Automatic Refresh: 1.5s · Zero Cloud Dependency</p>
+    </div>
+  </footer>
+
+  <script src="/usage.js"></script>
+</body>
+</html>

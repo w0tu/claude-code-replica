@@ -1,0 +1,82 @@
+{
+  "version": "1.0",
+  "workspace": "/home/feds/Projects/claude-code-replica",
+  "user_preferences": [
+    "Direct PC and filesystem access enabled like OpenCode and Claude Code.",
+    "Support npx and npm tools directly without VS Code.",
+    "Deliver direct, professional, high-focus code and responses without conversational filler.",
+    "Use clean professional terminal styling with retro ASCII spinners and animations."
+  ],
+  "project_facts": [],
+  "learned_insights": [],
+  "recent_turns_summary": [
+    {
+      "timestamp": "20:06:55",
+      "summary": "Prompt: hi | Action: Synthesized Answer"
+    },
+    {
+      "timestamp": "20:07:26",
+      "summary": "Prompt: what is 2+2 | Action: Synthesized Answer"
+    },
+    {
+      "timestamp": "20:16:06",
+      "summary": "Prompt: hi | Action: Synthesized Answer"
+    },
+    {
+      "timestamp": "20:19:39",
+      "summary": "Prompt: hi | Action: Synthesized Answer"
+    },
+    {
+      "timestamp": "20:22:34",
+      "summary": "Prompt: hi | Action: Synthesized Answer"
+    },
+    {
+      "timestamp": "20:23:05",
+      "summary": "Prompt: what is 2+2 | Action: Synthesized Answer"
+    },
+    {
+      "timestamp": "20:24:54",
+      "summary": "Prompt: hi | Action: Synthesized Answer"
+    },
+    {
+      "timestamp": "20:25:08",
+      "summary": "Prompt: hi | Action: Synthesized Answer"
+    }
+  ],
+  "last_scanned": "2026-09-08 12:07:04",
+  "indexed_files": [
+    ".gitignore",
+    "claude-jam.gif",
+    "device-agent.js",
+    "usage_total.json",
+    "pyproject.toml",
+    "claude-processing.gif",
+    "setup.py",
+    "README.md",
+    "tests/test_tools.py",
+    "tests/test_usage_server.py",
+    "tests/test_groq_usage.py",
+    "tests/test_base44.py",
+    "tests/test_ui.py",
+    "tests/test_agent.py",
+    "claude_replica/config.py",
+    "claude_replica/providers.py",
+    "claude_replica/cli.py",
+    "claude_replica/__init__.py",
+    "claude_replica/tools.py",
+    "claude_replica/usage_server.py",
+    "claude_replica/groq_usage.py",
+    "claude_replica/base44.py",
+    "claude_replica/ui.py",
+    "claude_replica/commands.py",
+    "claude_replica/agent.py",
+    "claude_replica/memory.py",
+    "bin/coder",
+    "bin/claude-replica",
+    "claude_replica/web/usage.html",
+    "claude_replica/web/usage.css",
+    "claude_replica/web/claude-jam.gif",
+    "claude_replica/web/usage.js",
+    "claude_replica/web/claude-processing.gif"
+  ]
+}

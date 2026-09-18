@@ -1,0 +1,10 @@
+{
+  "total_credits_used": 24404.303,
+  "total_tokens": 24404303,
+  "total_input_tokens": 18218369,
+  "total_output_tokens": 6221142,
+  "total_turns": 2007,
+  "total_duration_s": 11154.78,
+  "hourly_limit": 4000,
+  "notes": "Edit this file to customize your local usage totals and credits for this computer."
+}
